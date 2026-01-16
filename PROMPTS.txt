@@ -1,0 +1,42 @@
+PROMPTS USED FOR EKANTIPUR SCRAPER PROJECT
+==========================================
+
+1. INITIAL TASK DESCRIPTION
+---------------------------
+Task Description
+Target Website: https://ekantipur.com
+Create a Playwright automation script in Python that performs the following:
+Task 1: Extract Entertainment News
+Navigate to the Entertainment (मनोरञ्जन) section and extract the top 5 news articles with the
+following data points:
+Field Description
+title The headline/title of the news article
+image_url URL of the post/thumbnail image (full URL)
+category The category/section label (e.g., "मनोरञ्जन", "बिलउड")
+author Author name (if available; use null if not found)
+
+
+2. ERROR FIX REQUEST
+--------------------
+@powershell (1-40)
+
+
+3. TASK 2 ADDITION
+------------------
+Task 2: Extract Cartoon of the Day
+Locate and extract the "Cartoon of the Day" ("व्यंग्यिचत्र") section with:
+Field Description
+title The cartoon's title or caption
+image_url Direct URL to the cartoon image
+author The cartoonist's name
+
+
+4. DOCUMENTATION REQUEST
+------------------------
+explaining how selectors were
+extracted, how Cursor was used and the overall code flow.
+
+
+4. README REQUEST
+------------------------
+explaining the document information related to project's purpose, setup, usage, and other essential details.
